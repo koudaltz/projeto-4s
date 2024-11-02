@@ -113,6 +113,26 @@
     display: none;
   }
 
+  .menu-mobile {
+    z-index: 2;
+    /* background-color: #4d2a8d */
+    background: rgb(120, 74, 201);
+    background: linear-gradient(0deg, rgba(120, 74, 201, 1) 0%, rgba(77, 42, 141, 1) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+
+  .menu-mob {
+    width: 100%;
+  }
+
+  .menu-mob: {
+    width: 100%;
+  }
+
   @media screen and (max-width: 500px) {
     .menu-pc {
       display: none;
