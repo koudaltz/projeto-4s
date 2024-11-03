@@ -1,14 +1,9 @@
 <?php
-$servername = "projetosm4.mysql.database.azure.com";
-$username = "koudaltz";
-$password = "Daniel@1234";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
+//define('HOST', '127.0.0.1');
+//define('USUARIO', 'adtra');
+//define('SENHA', 'adtra');
+//define('DB', 'gerenciamento_frota');
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
+//$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Conexão falhou!');
 ?>
