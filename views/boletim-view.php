@@ -1,5 +1,5 @@
 <?php
-
+include_once('conexao.php');
 if (isset($_COOKIE['checkIn'])) {
   $valorCookie = json_decode($_COOKIE['checkIn'], true); // Converte a string JSON de volta para um array
 
