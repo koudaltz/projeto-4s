@@ -8,6 +8,6 @@ define('PORT', 3306);
 
 // echo 'Conexão bem-sucedida!';
 
-mysqli_close($conexao);
+// mysqli_close($conexao);
 
 ?>
