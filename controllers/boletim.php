@@ -1,6 +1,6 @@
 <?php 
   session_start();
-
+  include_once('conexao.php');
   require '../database/conexao.php';
 
   if(isset($_POST['enviar-boletim'])) {
