@@ -4,7 +4,9 @@
     <form action="controllers/checkIn.php" method="POST">
       <h2>Check-In</h2>
       <div class="mensagem">
-        <?php include('./components/mensagem.php'); ?>
+        <?php 
+          include('./components/mensagem.php');
+          include_once('conexao.php');?>
       </div>
       <div>
         <label for="login-checkIn" class="lbl">Usuário<span>*</span></label>
