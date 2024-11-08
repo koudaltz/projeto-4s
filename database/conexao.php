@@ -2,7 +2,7 @@
 
 define('HOST', 'projetosm4.mysql.database.azure.com');
 define('USUARIO', 'koudaltz');
-define('SENHA', 'Daniel123@');
+define('SENHA', 'Daniel1234@');
 define('DB', 'gerenciamento_frota');
 
 $conexao = mysqli_connect(HOST, USUARIO, SENHA, DB);
