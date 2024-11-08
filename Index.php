@@ -1,6 +1,6 @@
 <?php
 require './database/conexao.php';
-include_once('config.php');
+include_once('conexao.php');
 session_start();
 ?>
 <!DOCTYPE html>
