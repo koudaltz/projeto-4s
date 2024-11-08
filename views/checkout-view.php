@@ -4,7 +4,7 @@
       <h2>Check-Out</h2>
 
       <?php
-
+      include_once('conexao.php');
       if (isset($_COOKIE['checkIn'])) {
       ?>
         <div class="data-horario-checkIn">
